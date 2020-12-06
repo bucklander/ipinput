@@ -1,5 +1,7 @@
 # ipinput.py
 
+[![Build Status](https://travis-ci.org/bucklander/ipinput.svg?branch=main)](https://travis-ci.org/bucklander/ipinput)
+
 An example coding and container deployment excercise for a super simple route lookup process program (like Cisco process switching) with WSGI-enabled, REST API bolted on. 
 
 Imports a JSON list of routes as a virtual RIB, and takes input from the user to determine the best next-hop forwarding path(s).
