@@ -1,0 +1,54 @@
+{
+    "entries":  [
+        {
+            "prefix": "192.168.0.0/24",
+            "protocol": "LOCALLY_CONNECTED",
+            "next_hop": "192.168.0.1"
+        },
+        {
+            "prefix": "1.3.3.0/24",
+            "protocol": "OSPF",
+            "next_hop": "5.5.5.1"
+        },
+        {
+            "prefix": "1.4.3.0/24",
+            "protocol": "OSPF",
+            "next_hop": "5.5.5.5"
+        },
+        {
+            "prefix": "10.10.10.0/24",
+            "protocol": "BGP",
+            "next_hop": "3.3.3.3"
+        },
+        {
+            "prefix": "10.10.10.0/24",
+            "protocol": "BGP",
+            "next_hop": "3.3.3.4"
+        },
+        {
+            "prefix": "10.0.0.0/24",
+            "protocol": "BGP",
+            "next_hop": "3.3.3.3"
+        },
+        {
+            "prefix": "3.3.3.0/24",
+            "protocol": "BGP",
+            "next_hop": "2.2.2.2"
+        },
+        {
+            "prefix": "2.2.2.0/24",
+            "protocol": "BGP",
+            "next_hop": "2.2.2.3"
+        },
+        {
+            "prefix": "0.0.0.0/0",
+            "protocol": "BGP",
+            "next_hop": "1.1.1.1"
+        },
+        {
+            "prefix": "0.0.0.0/0",
+            "protocol": "BGP",
+            "next_hop": "1.1.1.5"
+        }
+    ]
+}
