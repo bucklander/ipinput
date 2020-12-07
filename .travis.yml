@@ -9,7 +9,6 @@ services:
 before_install:
   - docker build --tag ipinput:latest .
   - docker run -d -p 8080:5017 --name ipinput ipinput:latest
-  - docker run ipinput /bin/sh -c "cd /opt/ipinput; python3 test.py"
 install:
   - pip3 install -r requirements.txt
 script:
