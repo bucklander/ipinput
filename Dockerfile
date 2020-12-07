@@ -14,6 +14,7 @@ ENV FLASK_ENV=development
 ADD ipinput.py /opt/ipinput/ipinput.py
 ADD gunicorn.py /opt/ipinput/gunicorn.py
 ADD api.py /opt/ipinput/api.py
+ADD test.py /opt/ipinput/test.py
 ADD requirements.txt /opt/ipinput/requirements.txt
 ADD route_table.json /opt/ipinput/route_table.json
 
